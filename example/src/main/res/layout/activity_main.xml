@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.felhr.serialportexample.MainActivity">
+    <TextView
+        android:id="@+id/MainActivityText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This Is Main Activity"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/MainActivityButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:onClick="ButtonClick"/>
+</LinearLayout>
